@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "548898519432",
+    "project_id": "mobilemt-81e28",
+    "storage_bucket": "mobilemt-81e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548898519432:android:2dc9d2ffc4c3e67860a23d",
+        "android_client_info": {
+          "package_name": "com.MT.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548898519432-8vao03iufl8eur71cd17u3d14f1h6h8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCotgJXjLZPuFRDEfoEkE-aQX9ScSzZS3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548898519432-8vao03iufl8eur71cd17u3d14f1h6h8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "548898519432-om2gmsa4n5gchusoamhs9okokmrjackg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gony.MT"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

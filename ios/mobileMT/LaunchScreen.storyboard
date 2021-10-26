@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wXg-Ma-k9e">
+                                <rect key="frame" x="64" y="313" width="300" height="300"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.96124202010000004" green="0.95692485569999997" blue="0.96048492190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0ek-iR-si0"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Fi-Uc-yX9"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6rQ-eH-YlX"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7bu-G8-4ek"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AAz-d8-Z8t"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jfr-cO-1e6"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jjm-Kn-tnK"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="N0I-zb-k1W"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Nb4-ip-VhF"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QeU-75-siG"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Sob-cZ-RRQ"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZuP-7t-JHv"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aRn-3Z-5Xf"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="etV-Xm-bjQ"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="g6I-gI-Bm8"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oYT-JA-3G9"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="r14-IX-kRG"/>
+                            <constraint firstItem="wXg-Ma-k9e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uMy-ds-yaM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashIcon" width="300" height="300"/>
+    </resources>
+</document>
