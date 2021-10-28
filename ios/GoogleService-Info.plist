@@ -19,16 +19,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>mobilemt-81e28.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:548898519432:ios:1fa62b7383fa127660a23d</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-6117064905510585~7850820962</string>
 </dict>
 </plist>
