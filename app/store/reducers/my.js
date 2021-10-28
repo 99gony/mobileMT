@@ -17,6 +17,7 @@ const initialState = {
     {type: 'nickname', timer: null},
   ],
   mode: 'light',
+  myVersion: 1,
 };
 
 export const mySlice = createSlice({
@@ -62,6 +63,11 @@ export const mySlice = createSlice({
     },
     setMode(state, action) {
       state.mode = action.payload;
+    },
+    resetAll(state, action) {
+      state = initialState;
+      state.myVersion = action.payload;
+      return state;
     },
   },
   extraReducers: builder => {

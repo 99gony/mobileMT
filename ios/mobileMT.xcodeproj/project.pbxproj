@@ -13,7 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		34ADDD9137732F55536114F3 /* libPods-mobileMT-mobileMTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C500DCCE38FECDD71C44BDFA /* libPods-mobileMT-mobileMTTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FF7D5B3A27226B0E00908053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF7D5B3927226B0E00908053 /* GoogleService-Info.plist */; };
+		FF3C4236272A8E8600D5F815 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3C4235272A8E8500D5F815 /* GoogleService-Info.plist */; };
 		FFB2B40A3B93AC642F1842E1 /* libPods-mobileMT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5D9408A3DB4671C1D61E8A /* libPods-mobileMT.a */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		C149FE783862DF9A66D4DC32 /* Pods-mobileMTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileMTTests.release.xcconfig"; path = "Target Support Files/Pods-mobileMTTests/Pods-mobileMTTests.release.xcconfig"; sourceTree = "<group>"; };
 		C500DCCE38FECDD71C44BDFA /* libPods-mobileMT-mobileMTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileMT-mobileMTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FF7D5B3927226B0E00908053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF3C4235272A8E8500D5F815 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FFB00C7A27018D8B00924DC8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		FFF8FEC42702E9A900BDD0B4 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +92,7 @@
 		13B07FAE1A68108700A75B9A /* mobileMT */ = {
 			isa = PBXGroup;
 			children = (
-				FF7D5B3927226B0E00908053 /* GoogleService-Info.plist */,
+				FF3C4235272A8E8500D5F815 /* GoogleService-Info.plist */,
 				FFB00C7727018C9300924DC8 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -264,7 +264,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				FF7D5B3A27226B0E00908053 /* GoogleService-Info.plist in Resources */,
+				FF3C4236272A8E8600D5F815 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

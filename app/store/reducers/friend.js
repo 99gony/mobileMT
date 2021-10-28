@@ -52,6 +52,10 @@ export const friendSlice = createSlice({
     onNewFriend(state, action) {
       state.list.unshift(action.payload);
     },
+    resetAll(state) {
+      state = initialState;
+      return state;
+    },
   },
   extraReducers: builder => {
     builder.addCase(getFriendList.fulfilled, (state, action) => {

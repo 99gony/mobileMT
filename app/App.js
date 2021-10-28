@@ -22,6 +22,7 @@ const App = () => {
   const myId = useSelector(state => state.my.myId);
   const mode = useSelector(state => state.my.mode);
   const lastChatId = useSelector(state => state.friend.lastChatId);
+  const myVersion = useSelector(state => state.my.myVersion);
   const appSocket = useRef();
   const appState = useRef(AppState.currentState);
 
@@ -41,7 +42,11 @@ const App = () => {
 
   useEffect(() => {
     const init = async () => {
-      await AdMob.initialize();
+      try {
+        await AdMob.initialize();
+      } catch (err) {
+        console.log(err);
+      }
     };
 
     init();
@@ -54,8 +59,15 @@ const App = () => {
     });
     appSocket.current.on('myIp', ({ip, version, fixing}) => {
       // 서버 버전 호환 관리
-      if (version !== 1) {
+      if (version !== 2) {
+        dispatch(mySlice.actions.resetAll(version));
+        dispatch(friendSlice.actions.resetAll());
         return setIsUpdate(true);
+      }
+      if (myVersion !== version) {
+        dispatch(mySlice.actions.resetAll(version));
+        dispatch(friendSlice.actions.resetAll());
+        return;
       }
       if (fixing) {
         return setIsFixing(true);

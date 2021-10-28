@@ -13,8 +13,10 @@ import {darkMode} from '../../components/darkModeStyles';
 
 const DesireScreen = ({navigation}) => {
   const dispatch = useDispatch();
-  const report = useSelector(state => state.my.report);
-  const mode = useSelector(state => state.my.mode);
+
+  const {report, mode, myMbti, myGender, myCharacter, myName} = useSelector(
+    state => state.my,
+  );
 
   useEffect(() => {
     const resetting = navigation.addListener('focus', () => {
@@ -26,6 +28,12 @@ const DesireScreen = ({navigation}) => {
     });
     return resetting;
   }, [navigation]);
+
+  useEffect(() => {
+    if (!myMbti && !myGender && !myCharacter && !myName) {
+      navigation.reset({index: 0, routes: [{name: 'my'}]});
+    }
+  }, [navigation, myMbti, myGender, myCharacter, myName]);
 
   return (
     <SafeAreaView
