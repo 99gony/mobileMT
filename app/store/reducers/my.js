@@ -17,7 +17,7 @@ const initialState = {
     {type: 'nickname', timer: null},
   ],
   mode: 'light',
-  myVersion: 1,
+  reset: false,
 };
 
 export const mySlice = createSlice({
@@ -64,10 +64,19 @@ export const mySlice = createSlice({
     setMode(state, action) {
       state.mode = action.payload;
     },
-    resetAll(state, action) {
-      state = initialState;
-      state.myVersion = action.payload;
-      return state;
+    resetAll(state) {
+      state.myMbti = initialState.myMbti;
+      state.myGender = initialState.myGender;
+      state.isAgreeEula = initialState.isAgreeEula;
+      state.myCharacter = initialState.myCharacter;
+      state.myIp = initialState.myIp;
+      state.myId = initialState.myId;
+      state.myName = initialState.myName;
+      state.myToken = initialState.myToken;
+      state.report = initialState.report;
+      state.timer = initialState.timer;
+      state.mode = initialState.mode;
+      state.reset = true;
     },
   },
   extraReducers: builder => {

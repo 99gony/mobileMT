@@ -21,8 +21,8 @@ const App = () => {
   const [isUpdate, setIsUpdate] = useState(false);
   const myId = useSelector(state => state.my.myId);
   const mode = useSelector(state => state.my.mode);
+  const reset = useSelector(state => state.my.reset);
   const lastChatId = useSelector(state => state.friend.lastChatId);
-  const myVersion = useSelector(state => state.my.myVersion);
   const appSocket = useRef();
   const appState = useRef(AppState.currentState);
 
@@ -53,21 +53,21 @@ const App = () => {
   }, []);
 
   useEffect(() => {
+    if (!reset) {
+      dispatch(mySlice.actions.resetAll());
+      dispatch(friendSlice.actions.resetAll());
+    }
+  }, [reset]);
+
+  useEffect(() => {
     appSocket.current = io(serverAPI, {
       path: '/socket.io',
       transports: ['websocket'],
     });
     appSocket.current.on('myIp', ({ip, version, fixing}) => {
       // 서버 버전 호환 관리
-      if (version !== 2) {
-        dispatch(mySlice.actions.resetAll(version));
-        dispatch(friendSlice.actions.resetAll());
+      if (version !== 3) {
         return setIsUpdate(true);
-      }
-      if (myVersion !== version) {
-        dispatch(mySlice.actions.resetAll(version));
-        dispatch(friendSlice.actions.resetAll());
-        return;
       }
       if (fixing) {
         return setIsFixing(true);
