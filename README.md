@@ -44,32 +44,30 @@
   <h3>공통 기능</h3>
   <h4> - "채팅 인풋이 비어있다면 전송을 할 수 없다…" 와 같은 당연한 것들은 생략하겠다.</h4>
   <h4> - 채팅 세글자 이상 입력시 상대방에게 (...) 애니메이션 말풍선이 뜬다.</h4>
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801799-c0c670e7-7abe-4c73-bfe5-2fbcfe6d74bf.jpg">
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801801-ede01be8-3435-4676-aee4-6e99f32d60ef.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801799-c0c670e7-7abe-4c73-bfe5-2fbcfe6d74bf.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801801-ede01be8-3435-4676-aee4-6e99f32d60ef.jpg">
   <h4> - 상대방의 MBTI 유형마다 다른 색으로 상대방 말풍선이 나온다.</h4>
   <h4> - 전송 버튼이 활성화 돼 있을시 버튼이 상대 MBTI 유형 색깔로 채워진다.</h4>
   <br/>
   <h3>1 . 랜덤방</h3>
   <h4> - 기다리는 동안 어디서 많이 봤을 수도 있는 게임을 할 수 있다.</h4>
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142809202-92097a1a-2291-4773-8106-b5876bc00da8.jpg">
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801797-d3f8c4be-3884-4b41-9616-c29b43d1cdd2.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142809202-92097a1a-2291-4773-8106-b5876bc00da8.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801797-d3f8c4be-3884-4b41-9616-c29b43d1cdd2.jpg">
   <br/>
   <h4> - 불쾌한 유저, 오늘은 그만보고 싶은 유저 등을 앱 종료하기 전까지 차단할 수 있다.</h4>
   <h4> - 하루에 3번 신고를 할 수 있다. 신고하면 차단은 자동으로 된다.</h4>
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801805-17eccaa9-3fbd-4e98-b706-557353c9da05.jpg">
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801804-37d1f90d-e174-4769-b976-d0ae232e215d.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801805-17eccaa9-3fbd-4e98-b706-557353c9da05.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801804-37d1f90d-e174-4769-b976-d0ae232e215d.jpg">
   <br/>
   <h4> - 대화가 잘 맞고 또 보고 싶은 친구에겐 친구 신청을 하면 된다. </h4>
   <h4> - 받는 입장에선 부담스럽지 않게 거절해도 모르게 해 놓았다. </h4>
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801803-e64d94f5-5af0-454a-8de8-334d7d2291e4.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801803-e64d94f5-5af0-454a-8de8-334d7d2291e4.jpg">
   <br/>
   <h4> - 대화가 종료되면 이렇게 종료 안내 문구와 함께 원하는 옵션 변경 혹은 바로 재매칭할 수 있다.</h4>
-  <img width="160" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801807-61a8fb1f-6270-4c60-9ebc-2fcd2cf1e2c4.jpg">
+  <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801807-61a8fb1f-6270-4c60-9ebc-2fcd2cf1e2c4.jpg">
   <br/>
-  <h3> - 랜덤방에선 오직 Socket.io만 사용하므로 프론트(배열)에 채팅이 저장된다. 랜덤방을 나가면 모든 대화가 삭제된다.</h3>
-  <h3> - 랜덤방은 항상 실시간이기 때문에 굳이 불필요한 '읽음' 기능을 넣지 않았다.</h3>
-  
-  
+  <h4> - 랜덤방에선 오직 Socket.io만 사용(DB 미사용)하므로 프론트(리덕스 배열)에 채팅이 저장된다. 랜덤방을 나가면 모든 대화가 삭제된다.</h4>
+  <h4> - 랜덤방은 항상 실시간이기 때문에 굳이 불필요한 '읽음' 기능을 넣지 않았다.</h4>
 </div>
 
 
