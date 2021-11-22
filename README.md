@@ -42,7 +42,7 @@
 <div>
   <h2>채팅방들 ( 랜덤방, 친구방 )</h2>
   <h3>공통 기능</h3>
-  <h4> - "채팅 인풋이 비어있다면 전송을 할 수 없다…" 와 같은 당연한 것들은 생략하겠다.</h4>
+  <h4> - 채팅 인풋이 비어있으면 전송을 할 수 없다.</h4>
   <h4> - 채팅 세글자 이상 입력시 상대방에게 (...) 애니메이션 말풍선이 뜬다.</h4>
   <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801799-c0c670e7-7abe-4c73-bfe5-2fbcfe6d74bf.jpg">
   <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801801-ede01be8-3435-4676-aee4-6e99f32d60ef.jpg">
@@ -52,6 +52,7 @@
   <br/><br/>
   <h3>1 . 랜덤방</h3>
   <h4> - 기다리는 동안 어디서 많이 봤을 수도 있는 게임을 할 수 있다.</h4>
+  <h4> - 이때 채팅 전송은 물론 상대방과 상호작용하는 버튼들은 비활성화된다.</h4>
   <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142809202-92097a1a-2291-4773-8106-b5876bc00da8.jpg">
   <img width="140" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801797-d3f8c4be-3884-4b41-9616-c29b43d1cdd2.jpg">
   <br/>
