@@ -51,6 +51,8 @@
   <h4> - 기다리는 동안 어디서 많이 봤을 수도 있는 게임을 할 수 있다.</h4>
   <h4> - 불쾌한 유저, 오늘은 그만보고 싶은 유저 등을 앱 종료하기 전까지 차단할 수 있다.</h4>
   <h4> - 하루에 3번 신고를 할 수 있다. 신고하면 차단은 자동으로 된다.</h4>
+  <h4> - 대화가 잘 맞고 또 보고 싶은 친구에겐 친구 신청을 하면 된다. 받는 입장에선 부담스럽지 않게 거절해도 모르게 해 놓았다.</h4>
+  <h4> - 아래 사진들은 이 사진들을 찍으려고 실제로 유저와 만나 대화한 사진이다.</h4>
   <img width="210" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801797-d3f8c4be-3884-4b41-9616-c29b43d1cdd2.jpg">
   <img width="210" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801799-c0c670e7-7abe-4c73-bfe5-2fbcfe6d74bf.jpg">
   <img width="210" object-fit="contain" src="https://user-images.githubusercontent.com/72787759/142801801-ede01be8-3435-4676-aee4-6e99f32d60ef.jpg">
